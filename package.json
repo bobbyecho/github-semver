@@ -1,5 +1,5 @@
 {
-  "name": "github-semver",
+  "name": "@bobbyecho/github-semver",
   "version": "0.1.0",
   "description": "learn github semantic versioning release",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobbyecho/github-semver.git"
+    "url": "https://github.com/bobbyecho/github-semver.git"
   },
   "keywords": [
     "semver",
@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/bobbyecho/github-semver/issues"
   },
-  "homepage": "https://github.com/bobbyecho/github-semver#readme"
+  "homepage": "https://github.com/bobbyecho/github-semver#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "semantic-release": "^19.0.2"
+  }
 }
