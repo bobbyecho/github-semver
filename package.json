@@ -10,6 +10,9 @@
     "type": "git",
     "url": "https://github.com/bobbyecho/github-semver.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "semver",
     "github"
